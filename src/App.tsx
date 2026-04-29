@@ -114,7 +114,7 @@ const cars = [
     name: "Toyota Fortuner VRZ",
     price: "1.200.000",
     priceNum: 1200000,
-    image: "/fortuner-1.webp",
+    image: "./fortuner-1.webp",
     specs: "Automatic • Diesel • 7 Seats",
     brand: "Toyota",
     type: "SUV",
@@ -124,7 +124,7 @@ const cars = [
     name: "Daihatsu Xenia",
     price: "400.000",
     priceNum: 400000,
-    image: "/xenia.jpeg",
+    image: "./xenia.jpeg",
     specs: "Automatic • Petrol • 7 Seats",
     brand: "Daihatsu",
     type: "MPV",
@@ -134,7 +134,7 @@ const cars = [
     name: "Honda Brio",
     price: "350.000",
     priceNum: 350000,
-    image: "/brio.jpg",
+    image: "./brio.jpg",
     specs: "Automatic • Petrol • 5 Seats",
     brand: "Honda",
     type: "Hatchback",
@@ -144,7 +144,7 @@ const cars = [
     name: "Pajero Sport",
     price: "1.200.000",
     priceNum: 1200000,
-    image: "/pajero.jpg",
+    image: "./pajero.jpg",
     specs: "Automatic • Diesel • 7 Seats",
     brand: "Mitsubishi",
     type: "SUV",
@@ -154,7 +154,7 @@ const cars = [
     name: "Innova Reborn",
     price: "800.000",
     priceNum: 800000,
-    image: "/innova.png",
+    image: "./innova.png",
     specs: "Automatic • Diesel • 7 Seats",
     brand: "Toyota",
     type: "MPV",
@@ -164,7 +164,7 @@ const cars = [
     name: "Toyota Avanza",
     price: "400.000",
     priceNum: 400000,
-    image: "/avanza-veloz.webp",
+    image: "./avanza-veloz.webp",
     specs: "Automatic • Petrol • 7 Seats",
     brand: "Toyota",
     type: "MPV",
@@ -219,7 +219,7 @@ export default function App() {
         {/* Background Image: White car from behind on a dark cinematic road */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/hero-bg.png"
+            src="./hero-bg.png"
             alt="Premium Car Rental Banyuwangi background"
             className={`w-full h-full object-cover transition-opacity duration-1000 ${
               bgLoaded ? "opacity-100" : "opacity-0"
